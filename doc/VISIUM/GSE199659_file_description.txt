@@ -1,0 +1,49 @@
+file name	file type
+C57BL10_molecule_info.h5	Molecule-level information used by spaceranger aggr to aggregate samples into larger datasets
+C57BL10_metrics_summary	Run summary metrics in CSV format
+C57BL10_filtered_feature_bc_matrix.h5	Filtered feature-barcode matrices containing only spot barcodes in HDF5 format
+C57BL10_aligned_fiducials	Aligned fiducials QC image
+C57BL10_detected_tissue_image	Detected tissue QC image
+C57BL10_scalefactors_json.json	Contains spot diameter estimation in pixels for the full resolution original image, tissue_hires_scalef which is the spot poisition multiplier in pixels for the high resolution image, fiducial spot diameter estimation in pixels for the full resolution original image, and tissue_hires_scalef which is the spot poisition multiplier in pixels for the low resolution image
+C57BL10_tissue_hires_image	Full resolution image downsampled to 2k pixels on the longest dimension
+C57BL10_tissue_lowres_image	Full resolution image downsampled to 600 pixels on the longest dimension
+C57BL10_tissue_positions_list	CSV containing spot barcode, if the spot was called under (1) or out (0) of tissue, the array position, image pixel position x, and image pixel postion y for the full resolution image
+C57BL10_barcodes.tsv	Filtered feature matrices
+C57BL10_features.tsv	Filtered barcode matrices
+C57BL10_matrix.mtx	Filtered count matrix
+D2MDX_molecule_info.h5	Molecule-level information used by spaceranger aggr to aggregate samples into larger datasets
+D2MDX_metrics_summary	Run summary metrics in CSV format
+D2MDX_filtered_feature_bc_matrix.h5	Filtered feature-barcode matrices containing only spot barcodes in HDF5 format
+D2MDX_aligned_fiducials	Aligned fiducials QC image
+D2MDX_detected_tissue_image	Detected tissue QC image
+D2MDX_scalefactors_json.json	Contains spot diameter estimation in pixels for the full resolution original image, tissue_hires_scalef which is the spot poisition multiplier in pixels for the high resolution image, fiducial spot diameter estimation in pixels for the full resolution original image, and tissue_hires_scalef which is the spot poisition multiplier in pixels for the low resolution image
+D2MDX_tissue_hires_image	Full resolution image downsampled to 2k pixels on the longest dimension
+D2MDX_tissue_lowres_image	Full resolution image downsampled to 600 pixels on the longest dimension
+D2MDX_tissue_positions_list	CSV containing spot barcode, if the spot was called under (1) or out (0) of tissue, the array position, image pixel position x, and image pixel postion y for the full resolution image
+D2MDX_barcodes.tsv	Filtered feature matrices
+D2MDX_features.tsv	Filtered barcode matrices
+D2MDX_matrix.mtx	Filtered count matrix
+DBA2J_molecule_info.h5	Molecule-level information used by spaceranger aggr to aggregate samples into larger datasets
+DBA2J_metrics_summary	Run summary metrics in CSV format
+DBA2J_filtered_feature_bc_matrix.h5	Filtered feature-barcode matrices containing only spot barcodes in HDF5 format
+DBA2J_aligned_fiducials	Aligned fiducials QC image
+DBA2J_detected_tissue_image	Detected tissue QC image
+DBA2J_scalefactors_json.json	Contains spot diameter estimation in pixels for the full resolution original image, tissue_hires_scalef which is the spot poisition multiplier in pixels for the high resolution image, fiducial spot diameter estimation in pixels for the full resolution original image, and tissue_hires_scalef which is the spot poisition multiplier in pixels for the low resolution image
+DBA2J_tissue_hires_image	Full resolution image downsampled to 2k pixels on the longest dimension
+DBA2J_tissue_lowres_image	Full resolution image downsampled to 600 pixels on the longest dimension
+DBA2J_tissue_positions_list	CSV containing spot barcode, if the spot was called under (1) or out (0) of tissue, the array position, image pixel position x, and image pixel postion y for the full resolution image
+DBA2J_barcodes.tsv	Filtered feature matrices
+DBA2J_features.tsv	Filtered barcode matrices
+DBA2J_matrix.mtx	Filtered count matrix
+MDX_molecule_info.h5	Molecule-level information used by spaceranger aggr to aggregate samples into larger datasets
+MDX_metrics_summary	Run summary metrics in CSV format
+MDX_filtered_feature_bc_matrix.h5	Filtered feature-barcode matrices containing only spot barcodes in HDF5 format
+MDX_aligned_fiducials	Aligned fiducials QC image
+MDX_detected_tissue_image	Detected tissue QC image
+MDX_scalefactors_json.json	Contains spot diameter estimation in pixels for the full resolution original image, tissue_hires_scalef which is the spot poisition multiplier in pixels for the high resolution image, fiducial spot diameter estimation in pixels for the full resolution original image, and tissue_hires_scalef which is the spot poisition multiplier in pixels for the low resolution image
+MDX_tissue_hires_image	Full resolution image downsampled to 2k pixels on the longest dimension
+MDX_tissue_lowres_image	Full resolution image downsampled to 600 pixels on the longest dimension
+MDX_tissue_positions_list	CSV containing spot barcode, if the spot was called under (1) or out (0) of tissue, the array position, image pixel position x, and image pixel postion y for the full resolution image
+MDX_barcodes.tsv	Filtered feature matrices
+MDX_features.tsv	Filtered barcode matrices
+MDX_matrix.mtx	Filtered count matrix
