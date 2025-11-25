@@ -1,0 +1,10 @@
+{
+    "input": "\/media\/mna_bioinfo\/MNA2_Stockage\/CHAZAUD\/doc\/GAETAN\/fichiercsvfastq.csv",
+    "outdir": "\/media\/mna_bioinfo\/MNA2_Stockage\/CHAZAUD\/result\/GAETAN",
+    "fasta": "\/media\/mna_bioinfo\/DD_linux\/references\/Mmu\/genome\/Mus_musculus.GRCm39.dna.primary_assembly.fa",
+    "gtf": "\/media\/mna_bioinfo\/DD_linux\/references\/Mmu\/gtf\/Mus_musculus.GRCm39.111.gtf",
+    "star_index": "\/media\/mna_bioinfo\/DD_linux\/references\/Mmu\/index\/STARIndex_2.7.11b_GRCm39",
+    "salmon_index": "\/media\/mna_bioinfo\/DD_linux\/references\/Mmu\/index\/salmon_Mus_musculus.GRCm39.111",
+    "pseudo_aligner": "salmon",
+    "save_unaligned": true
+}

@@ -1,0 +1,19 @@
+STAR \
+--genomeDir /media/mna_bioinfo/DD_linux/references/Mmu/index/STARIndex_2.7.11b_GRCm39 \
+--readFilesType Fastx \
+--readFilesIn /media/mna_bioinfo/MNA2_Stockage/CHAZAUD/fastq/GAETAN/scMacrophages/MT_CD45_CD11b_young_MDX_S1/MT_CD45_CD11b_young_MDX_S1_L001_R2_001.fastq.gz,/media/mna_bioinfo/MNA2_Stockage/CHAZAUD/fastq/GAETAN/scMacrophages/MT_CD45_CD11b_young_MDX_S1/MT_CD45_CD11b_young_MDX_S1_L002_R2_001.fastq.gz,/media/mna_bioinfo/MNA2_Stockage/CHAZAUD/fastq/GAETAN/scMacrophages/MT_CD45_CD11b_young_MDX_S1/MT_CD45_CD11b_young_MDX_S1_L003_R2_001.fastq.gz,/media/mna_bioinfo/MNA2_Stockage/CHAZAUD/fastq/GAETAN/scMacrophages/MT_CD45_CD11b_young_MDX_S1/MT_CD45_CD11b_young_MDX_S1_L004_R2_001.fastq.gz /media/mna_bioinfo/MNA2_Stockage/CHAZAUD/fastq/GAETAN/scMacrophages/MT_CD45_CD11b_young_MDX_S1/MT_CD45_CD11b_young_MDX_S1_L001_R1_001.fastq.gz,/media/mna_bioinfo/MNA2_Stockage/CHAZAUD/fastq/GAETAN/scMacrophages/MT_CD45_CD11b_young_MDX_S1/MT_CD45_CD11b_young_MDX_S1_L002_R1_001.fastq.gz,/media/mna_bioinfo/MNA2_Stockage/CHAZAUD/fastq/GAETAN/scMacrophages/MT_CD45_CD11b_young_MDX_S1/MT_CD45_CD11b_young_MDX_S1_L003_R1_001.fastq.gz,/media/mna_bioinfo/MNA2_Stockage/CHAZAUD/fastq/GAETAN/scMacrophages/MT_CD45_CD11b_young_MDX_S1/MT_CD45_CD11b_young_MDX_S1_L004_R1_001.fastq.gz \
+--soloCellFilter  EmptyDrops_CR \
+--soloCBwhitelist None \
+--outSAMtype BAM SortedByCoordinate \
+--readFilesCommand zcat \
+--runDirPerm All_RWX \
+--outSAMattributes NH HI nM AS CR UR CB UB GX GN sS sQ sM \
+--soloType CB_UMI_Simple \
+--soloCellReadStats Standard \
+--soloFeatures GeneFull GeneFull_ExonOverIntron \
+--soloBarcodeReadLength 26 \
+--limitBAMsortRAM 80000000000 \
+--limitOutSJcollapsed 5000000 \
+--limitSjdbInsertNsj 2212188 \
+--runThreadN 15 \
+--outFileNamePrefix MT_CD45_CD11b_young_MDX_S1
